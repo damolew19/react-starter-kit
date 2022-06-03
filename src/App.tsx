@@ -1,8 +1,12 @@
+import { StrictMode } from "react";
+
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <StrictMode>
+      <div>
+        <h1>Hello</h1>
+      </div>
+    </StrictMode>
   );
 }
 
